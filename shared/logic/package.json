@@ -1,0 +1,20 @@
+{
+  "name": "logic",
+  "version": "1.0.0",
+  "module": "src/main/index.ts",
+  "types": "src/main/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": { "typecheck": "bun tsc --noEmit" },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/bun": "^1.1.11",
+    "dpdm": "^3.14.0",
+    "pino-pretty": "^10.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "pino": "^9.5.0",
+    "zod": "^3.23.8"
+  }
+}

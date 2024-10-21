@@ -1,0 +1,17 @@
+{
+  "name": "cloud-humans-takehome",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare": "husky || true"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  },
+  "workspaces": ["apps/*", "shared/*"],
+  "author": "mebsilva",
+  "license": "MIT",
+  "private": true
+}

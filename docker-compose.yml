@@ -1,0 +1,16 @@
+services:
+  back:
+    build:
+      context: .
+      dockerfile: apps/back/Dockerfile
+    ports:
+      - "3333:3333"
+    env_file: apps/back/.env
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    ports:
+      - "3000:3000"
+    env_file: apps/web/.env
+ 

@@ -1,0 +1,12 @@
+{
+  "name": "back",
+  "type": "module",
+  "scripts": { "dev": "bun --watch index.ts", "start": "bun run index.ts" },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.5",
+    "logic": "workspace:*"
+  }
+}
