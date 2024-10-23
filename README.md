@@ -3,7 +3,7 @@
 ## To run:
 
 ```bash
-docker compose up
+docker compose up -d
 ```
 ## Then go to
 ```bash

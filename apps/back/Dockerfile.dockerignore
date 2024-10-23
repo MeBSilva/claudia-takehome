@@ -1,0 +1,19 @@
+*
+
+# common files to add
+!bun.lockb
+!package.json
+!tsconfig.json
+!apps/**/package.json
+!shared/**/package.json
+
+#package files to add
+!apps/back
+!shared/logic
+
+# gitignored files
+node_modules
+dist
+build
+.cache
+

@@ -1,7 +1,11 @@
 {
   "name": "back",
   "type": "module",
-  "scripts": { "dev": "bun --watch index.ts", "start": "bun run index.ts" },
+  "scripts": {
+    "dev": "bun --watch index.ts",
+    "start": "bun run ./build/index.js",
+    "build": "bun build ./index.ts --outdir ./build"
+  },
   "devDependencies": {
     "typescript": "^5.0.0"
   },
